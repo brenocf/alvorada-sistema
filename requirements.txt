@@ -3,3 +3,4 @@ pandas
 requests
 openpyxl
 python-docx
+psycopg2-binary
