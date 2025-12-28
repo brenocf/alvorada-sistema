@@ -1,0 +1,25 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# Data (SQLite local DBs - IMPORTANT: Syncing binary DBs can be messy, but for initial deploy, maybe include?)
+# For now, we ignore backup/temp DBs but ALLOW the main one if they want to seed data.
+# However, standard practice is to NOT commit DBs. 
+# But user wants "easy". Let's ignore backups.
+*_backup.db
+*.tmp
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
